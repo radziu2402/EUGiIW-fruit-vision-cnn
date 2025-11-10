@@ -1,0 +1,25 @@
+# Virtual environments
+.venv/
+venv/
+
+# PyCharm / JetBrains
+.idea/
+
+# Python cache / build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Datasets / cache / models
+runs/
+*.pt
+*.weights
+.cache/
+kagglehub/
+kaggle.json
+
+# System / misc
+.DS_Store
+Thumbs.db
