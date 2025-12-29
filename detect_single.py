@@ -5,7 +5,7 @@ from ultralytics import YOLO
 # 1️⃣ Ścieżki
 # ============================================
 model_path = r"runs/fruits-detection-quick/weights/best.pt"
-image_path = r"owocki.png"
+image_path = r"aaa.jpg"
 output_dir = r"runs/detect-fruits"
 
 os.makedirs(output_dir, exist_ok=True)
